@@ -709,18 +709,21 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = true; // set to true to invert the lo
 #define DEFAULT_MAX_FEEDRATE          {225, 225, 3, 25}    // (mm/sec) custom for TEVO Tarantula
 //#define DEFAULT_MAX_ACCELERATION      {3000,3000,100,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
 //#define DEFAULT_MAX_ACCELERATION      {1000,1000,100,10000}    // Custom for TEVO Tarantula
-#define DEFAULT_MAX_ACCELERATION      {800,800,100,10000}    // Maynard
+//#define DEFAULT_MAX_ACCELERATION      {800,800,100,10000}    // Maynard per recommended
+#define DEFAULT_MAX_ACCELERATION      {500,500,500,10000}    // Maynard experimental
 
 //#define DEFAULT_ACCELERATION          3000    // X, Y, Z and E acceleration in mm/s^2 for printing moves
 //#define DEFAULT_ACCELERATION          1000    // Custom for TEVO Tarantula
-#define DEFAULT_ACCELERATION          800    // Maynard
+//#define DEFAULT_ACCELERATION          800    // Maynard per recommended
+#define DEFAULT_ACCELERATION          500    // Maynard experimental
 #define DEFAULT_RETRACT_ACCELERATION  3000    // E acceleration in mm/s^2 for retracts
 #define DEFAULT_TRAVEL_ACCELERATION   3000    // X, Y, Z acceleration in mm/s^2 for travel (non printing) moves
 
 // The speed change that does not require acceleration (i.e. the software might assume it can be done instantaneously)
 //#define DEFAULT_XYJERK                20.0    // (mm/sec)
 //#define DEFAULT_XYJERK                15.0    // (mm/sec) Custom for TEVO Tarantula
-#define DEFAULT_XYJERK                8.0    // (mm/sec) Maynard
+//#define DEFAULT_XYJERK                8.0    // (mm/sec) Maynard per recommended
+#define DEFAULT_XYJERK                5.0    // (mm/sec) Maynard
 #define DEFAULT_ZJERK                 0.4     // (mm/sec)
 #define DEFAULT_EJERK                 5.0    // (mm/sec)
 
