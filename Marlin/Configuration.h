@@ -716,17 +716,17 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = true; // set to true to invert the lo
 //#define DEFAULT_ACCELERATION          3000    // X, Y, Z and E acceleration in mm/s^2 for printing moves
 //#define DEFAULT_ACCELERATION          1000    // Custom for TEVO Tarantula
 //#define DEFAULT_ACCELERATION          800    // Maynard per recommended
-#define DEFAULT_ACCELERATION          700    // Maynard experimental
-#define DEFAULT_RETRACT_ACCELERATION  4000    // E acceleration in mm/s^2 for retracts
-#define DEFAULT_TRAVEL_ACCELERATION   1500    // X, Y, Z acceleration in mm/s^2 for travel (non printing) moves
+#define DEFAULT_ACCELERATION          500    // Maynard experimental
+#define DEFAULT_RETRACT_ACCELERATION  3000    // E acceleration in mm/s^2 for retracts
+#define DEFAULT_TRAVEL_ACCELERATION   3000    // X, Y, Z acceleration in mm/s^2 for travel (non printing) moves
 
 // The speed change that does not require acceleration (i.e. the software might assume it can be done instantaneously)
 //#define DEFAULT_XYJERK                20.0    // (mm/sec)
 //#define DEFAULT_XYJERK                15.0    // (mm/sec) Custom for TEVO Tarantula
 //#define DEFAULT_XYJERK                8.0    // (mm/sec) Maynard per recommended
-#define DEFAULT_XYJERK                4.0    // (mm/sec) Maynard
-#define DEFAULT_ZJERK                 0.2     // (mm/sec)
-#define DEFAULT_EJERK                 2.5    // (mm/sec)
+#define DEFAULT_XYJERK                5.0    // (mm/sec) Maynard
+#define DEFAULT_ZJERK                 0.4     // (mm/sec)
+#define DEFAULT_EJERK                 5.0    // (mm/sec)
 
 
 //=============================================================================
