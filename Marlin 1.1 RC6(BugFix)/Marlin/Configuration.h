@@ -704,13 +704,14 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = true; // set to true to invert the lo
 // default settings
 
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   {80,80,4000,500}  // default steps per unit for Ultimaker
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {80,80,1600,97.0874}  // custom steps per unit for TEVO Tarantula
+//#define DEFAULT_AXIS_STEPS_PER_UNIT   {80,80,1600,97.0874}  // custom steps per unit for TEVO Tarantula
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {80,80,1600,96.65}  // custom steps per unit for TEVO Tarantula Maynard
 //#define DEFAULT_MAX_FEEDRATE          {300, 300, 5, 25}    // (mm/sec)
 #define DEFAULT_MAX_FEEDRATE          {225, 225, 3, 25}    // (mm/sec) custom for TEVO Tarantula
 //#define DEFAULT_MAX_ACCELERATION      {3000,3000,100,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
-//#define DEFAULT_MAX_ACCELERATION      {1000,1000,100,10000}    // Custom for TEVO Tarantula
+#define DEFAULT_MAX_ACCELERATION      {1000,1000,100,10000}    // Custom for TEVO Tarantula
 //#define DEFAULT_MAX_ACCELERATION      {800,800,100,10000}    // Maynard per recommended
-#define DEFAULT_MAX_ACCELERATION      {500,500,500,10000}    // Maynard experimental
+//#define DEFAULT_MAX_ACCELERATION      {500,500,500,10000}    // Maynard experimental
 
 //#define DEFAULT_ACCELERATION          3000    // X, Y, Z and E acceleration in mm/s^2 for printing moves
 //#define DEFAULT_ACCELERATION          1000    // Custom for TEVO Tarantula
